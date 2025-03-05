@@ -1,0 +1,94 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  width: 100%;
+  height: 100%;
+}
+.page {
+  margin: 60px;
+  padding: 20px;
+
+  background: #dadada;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  /* width: 100%; */
+
+  background: rgb(66, 168, 209);
+}
+.navbar a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.navbar span {
+  color: black;
+}
+
+.frist {
+  background: white;
+
+  /* padding:15px; */
+  /* padding:20px; */
+  border-radius: 5px;
+  /* width: 100%;
+  margin: 20px */
+}
+
+.frist-head,
+.second-head {
+  font-size: 30px;
+  font-weight: 600;
+  /* color: red; */
+}
+.img-container {
+  align-items: center;
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  /* width: 100%; */
+  margin: 20px;
+  /*  border: 1px solid black; */
+}
+.bullet li  {
+  margin-top: 5px;
+  padding-left: 25px;
+}
+.second {
+  background: white;
+border-radius: 5px;
+padding: 20px;
+}
+
+.second-bullet li{
+margin-top: 5px;
+    margin-top: 5px;
+    padding-left: 7vw;
+  
+}
+
+.pasta-bullet ol{
+  margin-top: 5px;
+    margin-top: 5px;
+    padding-left: 7vw;
+}
+.footer{
+  
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  
+
+  background: #000;
+}
