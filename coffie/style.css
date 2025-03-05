@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page{
+  position: relative;
+}
+.h1{
+  background: gray;
+  text-align: center;
+  padding: 10px;
+
+
+}
+.links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* margin-bottom: 10px; */
+  gap: 30px;
+  font-weight: 700;
+}
+.sidebar{
+  width: 15%;
+  height: 100vh;
+
+  text-align: center;
+  background:rgb(206, 201, 201);
+  padding-left: 10px;
+}
+.explore{
+  font-weight: 700;
+  font-size: 20px;
+}
+.s-p{
+  margin-top: 15px;
+}
+.content{
+  position: absolute;
+  left: 15%;
+top: 14%;
+  height: 100vh;
+padding: 20px;
+  width: 85%;
+  background: rgb(255, 255, 255);
+}
+.img-container{
+  padding-left:100px ;
+  margin-top: 25px;
+}
+.img-container img{
+
+  height: 300px;
+  width: 250px;
+}
+.pera{
+  padding: 20px;
+}
+h3{
+  font-size: 20px;
+}
+span{
+
+  font-weight: 800;
+  font-size: 15px;
+}
+.our-div span{
+  padding-left: 20px;
+  margin-top: 8px;
+}
+.footer{
+  background: rgb(153, 153, 153);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
