@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio</title>
+    <style>
+     
+      @keyframes scroll {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-50%);
+        }
+      }
+
+      .animate-scroll {
+        animation: scroll 8s linear infinite;
+      }
+
+
+      swiper-container {
+      width: 100%;      border-radius: 30px;
+      height: 100%;
+    }
+
+    swiper-slide {
+      width: 70%;
+      height: 50%;
+      text-align: center;
+      border-radius: 30px;
+      font-size: 18px;
+
+      background: #150F0B;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 80%;      border-radius: 30px;
+      height: 50%;
+      object-fit: cover;
+    }
+
+
+    </style>
+    
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="py-8 w-full h-full bg-[#150F0B] text-white">
+      <section class="view-01">
+        <nav class="flex px-[10rem] justify-between items-center">
+          <h1 class="font-bold text-2xl">Portfolio</h1>
+          <div class="links tracking-tighter flex gap-10">
+            <a class="font-bold w-full h-full text" href="">Home</a
+            ><a class="font-medium opacity-50 w-full h-full text" href=""
+              >About</a
+            ><a class="font-medium opacity-50 w-full h-full text" href=""
+              >Contact</a
+            ><a class="font-medium opacity-50 w-full h-full text" href=""
+              >More</a
+            >
+          </div>
+        </nav>
+        <section class="flex justify-between p-[7rem]">
+          <div class="">
+            <h1 class="text-8xl font-medium">
+              Professional <span class="text-blue-300">consulting</span> for
+              your app & software.
+            </h1>
+            <p class="text-3xl mt-3">
+              Hey there! I’m John Parker. Coding consultant <br />
+              focussed on coding and deployment solutions.
+            </p>
+            <div class="btn mt-3">
+              <button
+                class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-[16px] bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95"
+              >
+                <span
+                  class="w-full h-full flex items-center gap-2 px-10 py-5 bg-[#B931FC] text-white rounded-[14px] bg-gradient-to-t from-[#a62ce2] to-[#c045fc]"
+                >
+                  Let's Talk
+                </span>
+              </button>
+              <button
+                class="relative cursor-pointer opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-[16px] bg-gradient-to-t from-[#8122b0] to-[#dc98fd] active:scale-95"
+              >
+                <span
+                  class="w-full h-full flex items-center gap-2 px-10 py-5 bg-[#B931FC] text-white rounded-[14px] bg-gradient-to-t from-[#a62ce2] to-[#c045fc]"
+                >
+                  See our Studies
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <img
+            style="border-radius: 10px 20px 20px 120px"
+            class="w-130 h-150 px-[0]"
+            src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b8f47fccf5c14ab5e5c3e_Image%20Hero%20Home%20Code%20Consult%20Webflow%20Template-p-800.webp"
+            alt=""
+          />
+        </section>
+        <section>
+          <div class="w-full">
+            <p class="px-[7rem]">Join just like the best companies out there</p>
+            <hr class="mt-8" />
+            <div class="logo mt-5 flex justify-evenly">
+              <img
+                src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b909c20d886f0cb7b7f8d_logo-9.svg"
+                alt=""
+              />
+              <img
+                src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b909c133d5685dae2e717_logo-79.svg"
+                alt=""
+              />
+              <img
+                src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b909c4361f0f13837e8da_logo-51.svg"
+                alt=""
+              />
+              <img
+                src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b909cabd99e20540a6dd2_logo-43-dark.svg"
+                alt=""
+              />
+              <img
+                src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b909c8497101ee86e0895_logo-53-dark.svg"
+                alt=""
+              />
+            </div>
+            <hr class="mt-4" />
+          </div>
+        </section>
+      </section>
+      <section class="view-02 mt-30 gap-15 flex px-[7rem]">
+        <div class="text">
+          <h2 class="text-6xl font-medium w-120">
+            Things I do for you that simply make your software better.
+          </h2>
+          <p class="text-3xl mt-6">
+            Vivamus elementum semper nisi. Maecenas <br />
+            ullamcorper, dui et feugiat, eros pede
+          </p>
+          <button>heyy</button>
+        </div>
+       
+        <div
+          class="w-[60rem] h-150 grid grid-cols-2 gap-4 p-4 shadow-lg rounded-2xl"
+        >
+          <!-- Box 1 -->
+          <div class="p-4 bg-blue-200 rotate-z-3 rounded-xl text-center">
+            <img
+              class="mt-5 p-4"
+              src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b7f32b26b3fb0ceeae87a_code-black.svg"
+              alt="Logo"
+              class="mx-auto mb-2"
+            />
+            <h2 class="text-3xl font-medium mt-5 text-black">Gerenal Code</h2>
+            <p class="text-xl  text-black  mt-2 p-4">
+              We'll analyze market trends, conduct competitor research, and
+              develop actionable recommendations to help you
+            </p>
+            <h3 class="text-white">Read More..</h3>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="p-4  bg-[#201B17] text-white rounded-xl text-center">
+            <img
+              class="mt-5 p-4"
+              src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b7f64458eb201f13376ec_union-horiz-alt.svg"
+              alt="Logo"
+              class="mx-auto mb-2"
+            />
+            <h2 class="text-3xl font-medium mt-5">Gerenal Code</h2>
+            <p class="text-xl mt-2 p-4">
+              We'll analyze market trends, conduct competitor research, and
+              develop actionable recommendations to help you
+            </p>
+            <h3 class="text-white">Read More..</h3>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="p-4  bg-[#201B17] text-white rounded-xl text-center">
+            <img
+              class="mt-5 p-4"
+              src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b7fa5f80c9adfd2d8bbf5_group.svg"
+              alt="Logo"
+              class="mx-auto mb-2"
+            />
+            <h2 class="text-3xl font-medium mt-5 ">Gerenal Code</h2>
+            <p class="text-xl  mt-2 p-4">
+              We'll analyze market trends, conduct competitor research, and
+              develop actionable recommendations to help you
+            </p>
+            <h3 class="text-white">Read More..</h3>
+          </div>
+
+          <!-- Box 4 -->
+          <div class="p-4  bg-[#201B17] text-white rounded-xl text-center">
+            <img
+              class="mt-5 p-4"
+              src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b7fb8046a0c4cb51c1a12_agile.svg"
+              alt="Logo"
+              class="mx-auto mb-2"
+            />
+            <h2 class="text-3xl font-medium mt-5">Gerenal Code</h2>
+            <p class="text-xl  mt-2 p-4">
+              We'll analyze market trends, conduct competitor research, and
+              develop actionable recommendations to help you
+            </p>
+            <h3 class="text-white">Read More..</h3>
+          </div>
+        </div>
+      </section>
+      <section class="view-03 mt-80">
+        <div class="text-center">
+          <h1 class="text-5xl font-bold ">Proven process for success</h1>
+          <p class="mt-5 font-medium text-2xl">We help you on every step of the journey</p>
+        </div>
+        <div class="number flex mt-25 justify-evenly">
+          <h1 class="font-bold text-8xl">01</h1>
+          <h1 class="font-bold text-8xl">02</h1>
+          <h1 class="font-bold text-8xl">03</h1>
+          <h1 class="font-bold text-8xl">04</h1>
+        </div>
+        <hr class="px-[7rem] mt-8">
+        <div class="number flex mt-25 justify-evenly">
+          <div class="contact text-center">
+          <h1 class="font-bold text-3xl">Cantact Me</h1>
+          <p>Donec sodales sagittis magna. <br>  Cras dapibus. Praesent ut ligula <br> non mi varius sagittis.</p>
+        </div>
+          <div class="contact text-center">
+          <h1 class="font-bold text-3xl"> Research</h1>
+          <p>Donec sodales sagittis magna. <br>  Cras dapibus. Praesent ut ligula <br> non mi varius sagittis.</p>
+        </div>
+          <div class="contact text-center">
+          <h1 class="font-bold text-3xl">Work</h1>
+          <p>Donec sodales sagittis magna. <br>  Cras dapibus. Praesent ut ligula <br> non mi varius sagittis.</p>
+        </div>
+          <div class="contact text-center">
+          <h1 class="font-bold text-3xl">Test & results</h1>
+          <p>Donec sodales sagittis magna. <br>  Cras dapibus. Praesent ut ligula <br> non mi varius sagittis.</p>
+        </div>
+
+        </div>
+      </section>
+      <section class="view-04 mt-15 h-full w-full">
+        <div class="text">
+          <h1 class="text-4xl mt-35 font-bold px-[7rem]">Don’t just take my word for it</h1>
+        </div>
+        <div class="relative mt-30 px-[7rem] w-full h-150 overflow-hidden">
+          <div id="slider" class="flex  gap-15 w-full h-full slider">
+   <div style="border-radius: 150px 10px 10px 10px" class="content w-[100rem] bg-[#201B17] text-white">
+    <h2 class="text-lg pt-35 px-10"><span class="text-9xl">2x </span>
+      lower dropout rate</h2>
+      <hr>
+      <p class=" pt-5 text-lg px-10">Etiam vitae tortor. Suspendisse enim turpis, dictum sed, iaculis a,<br> condimentum nec, nisi. Morbi ac felis. <br> Fusce convallis metus id felis luctus adipiscing. Nulla porta dolor.</p>
+      <img class="pt-20 px-10" src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b909c133d5685dae2e717_logo-79.svg" alt="">
+   </div>
+            <img style="border-radius: 10px 10px 150px 10px"
+              src="https://cdn.prod.website-files.com/6549c9a3faf687d3fe16a379/6549c9a3faf687d3fe16a408_Slider%20One.jpg"
+              class="w-full h-full object-cover"
+              alt="Image 2"
+            />
+          </div>
+    
+          <!-- Left Button -->
+          <button
+            onclick="slide(-1)"
+            class="absolute top-1/2 left-5 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+          >
+            &#10094;
+          </button>
+    
+          <!-- Right Button -->
+          <button
+            onclick="slide(1)"
+            class="absolute top-1/2 right-5 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full"
+          >
+            &#10095;
+          </button>
+    
+          
+        </div>
+      </section>
+      <section class="view-05 mt-50 relative">
+      <div class="text absolute px-[7rem] top-[60%] ">
+        <h1 class="text-6xl font-medium ">Leveraging the power of <br> <span class="text-blue-200"> code to grow</span> your business.</h1>
+ 
+      </div>
+      <img class=" w-[100vw] object-cover h-150" src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b993a6a43dcf0de7222c3_Big%20Image%20Section%20Code%20Consult%20Webflow%20Template.webp" alt="">
+      </section>
+      <section class="view-06 flex justify-evenly px-[7rem] mt-40"> 
+        <img    style="border-radius: 10px 320px 10px 10px" class="w-170" src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a3ef0e2bb267b38325f_Image%20Combo%20Halves%20Code%20Consult%20Webflow%20Template.webp" alt="">
+        <div class="text mt-15">
+          <h1 class="text-5xl font-medium text-white">Your one stop to all <br> consulting needs</h1>
+          <p class="mt-15">In dui magna, posuere eget, vestibulum et, tempor <br> auctor, justo. Praesent congue erat at massa. <br> Vivamus aliquet elit.</p>
+          <div class="text-white space-y-4 mt-15">
+            <div class="flex items-center space-x-2">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a07e70ccba2b8ec5b06_group.svg" alt="">
+                <p class="text-xl">Trusted by thousands</p>
+            </div>
+            <div class="flex items-center space-x-2">
+      <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a07f597f5a1130df413_shield-check.svg" alt="">
+                <p class="text-xl">Certificate awarded</p>
+            </div>
+            <div class="flex items-center space-x-2">
+<img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a079412465c8a6a9954_download.svg" alt="">
+                <p class="text-xl">Weekly reports</p>
+            </div>
+            <div class="flex items-center space-x-2">
+   <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a07af8807625659c1df_check-circle.svg" alt="">
+                <p>Proven track of success</p>
+            </div>
+            <button
+            class="relative cursor-pointer mt-15 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-[16px]  active:scale-95"
+          >
+            <span
+              class="w-full h-full flex items-center gap-2 px-10 py-5 bg-blue-200 text-black font-medium rounded-[14px]"
+            >
+              Let's Talk
+            </span>
+          </button>
+        </div>
+    
+        </div>
+      </section>
+      <section class="view-07 flex justify-evenly px-[] mt-40"> 
+     
+        <div class="text mt-15">
+          <h1 class="text-5xl font-medium text-white">The best tech stack to <br> scale like crazy.</h1>
+          <p class="mt-15">Sed consequat, leo eget bibendum sodales, augue <br> velit cursus nunc, quis gravida magna mi a libero. <br> Nullam tincidunt adipiscing enim. Sed augue ipsum, <br> egestas nec, vestibulum et.</p>
+        
+            <button
+            class="relative cursor-pointer mt-15 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-[16px]  active:scale-95"
+          >
+            <span
+              class="w-full h-full flex items-center gap-2 px-10 py-5 bg-blue-200 text-black font-medium rounded-[14px]"
+            >
+              Let's Talk
+            </span>
+          </button>
+        </div>
+    
+        </div>
+
+        <div
+        class="relative flex mt-20 items-center justify-center w-50 h-96 overflow-hidden"
+      >
+        <!-- Scrolling Container -->
+        <div class="relative h-80 w-24 overflow-hidden">
+          <!-- Top & Bottom Shadow -->
+          <div class="absolute inset-x-0 top-0 h-10 bg-[#150F0B] z-10"></div>
+          <div class="absolute inset-x-0 bottom-0 h-10 bg-[#150F0B] z-10"></div>
+        
+          <!-- Infinite Scrolling List -->
+          <div class="flex flex-col items-center space-y-6 animate-scroll">
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e04_Symbol%205.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e06_Symbol%204.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e03_Symbol%201.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e05_Symbol%202.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a07af8807625659c1df_check-circle.svg" class="w-12 h-12 object-contain" />
+            </div>
+        
+            <!-- Duplicate for Infinite Scroll -->
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e04_Symbol%205.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e06_Symbol%204.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e03_Symbol%201.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9ab35c622aebe37f9e05_Symbol%202.svg" class="w-12 h-12 object-contain" />
+            </div>
+            <div class="w-20 h-20 bg-black rounded-full flex items-center justify-center">
+              <img src="https://cdn.prod.website-files.com/659b714634f8cfe5326a934f/659b9a07af8807625659c1df_check-circle.svg" class="w-12 h-12 object-contain" />
+            </div>
+          </div>
+        </div>
+        
+        <style>
+          @keyframes scroll {
+            from {
+              transform: translateY(0);
+            }
+            to {
+              transform: translateY(-50%);
+            }
+          }
+          .animate-scroll {
+            animation: scroll 5s linear infinite;
+          }
+        </style>
+
+        
+    
+        </section>
+
+        <swiper-container class="mySwiper" pagination="true">
+          <!-- <swiper-slide><img  src="https://images.unsplash.com/photo-1739993070804-bb121822134e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8" alt=""></swiper-slide> -->
+          <swiper-slide><img src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b884291a7b74d1e60178a_659b86ea49ca61c297023be8_Case%2520Consult%2520Craft%2520Webflow%2520Template%25201-min.jpeg" alt=""></swiper-slide>
+          <swiper-slide><img src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b88421c8bcc13b96e4383_659b86ea49ca61c297023be9_Case%2520Consult%2520Craft%2520Webflow%2520Template%25202-min.jpeg" alt=""></swiper-slide>
+          <swiper-slide><img src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b88427f8b7cf25113d976_659b86ea49ca61c297023bfe_Case%2520Consult%2520Craft%2520Webflow%2520Template%25206-min.jpeg" alt=""></swiper-slide>
+        
+          <swiper-slide><img src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b8842e055ccf13e1fc7c1_659b86ea49ca61c297023bea_Case%2520Consult%2520Craft%2520Webflow%2520Template%25203-min.jpeg" alt=""></swiper-slide>
+         
+       
+        </swiper-container>
+      <div class="mid-head flex mt-12 justify-center items-center ">
+       
+       
+        <div class="text text-center text-6xl font-medium gap-14 width-10
+        ">
+        <div class="img px-60">
+          <img class="w-70 h-40"  src="https://cdn.prod.website-files.com/659b7df1133d5685dad9100e/659b8b6cfaadfb8ed92a3174_logo-17.svg" alt="">
+        </div>
+          <h2>Growing Ipsum X online sales <br> though online <br> marketing</h2>
+        </div>
+      </div>
+ <section class="view-09 px-[7rem] flex">
+
+   
+  <div class="leftside  mt-105">
+    <h1 class="text-5xl font-medium text-white">The best tech stack to <br> scale like crazy.</h1>
+    <p class="mt-15">Sed consequat, leo eget bibendum sodales, augue <br> velit cursus nunc, quis gravida magna mi a libero. <br> Nullam tincidunt adipiscing enim. Sed augue ipsum, <br> egestas nec, vestibulum et.</p>
+  
+      <button
+      class="relative cursor-pointer mt-15 opacity-90 hover:opacity-100 transition-opacity p-[2px] bg-black rounded-[16px]  active:scale-95"
+    >
+      <span
+        class="w-full h-full flex items-center gap-2 px-10 py-5 bg-blue-200 text-black font-medium rounded-[14px]"
+      >
+        Let's Talk
+      </span>
+    </button>
+  </div>
+   <div class="rightside ">
+    <section class="relative  px-10 py-20 ">
+      <div
+        class="sticky z-[99] top-0 w-full flex  items-center gap-3 px-10 py-8"
+      >
+        <h1 class="text-6xl tracking-tighter font-medium">2025</h1>
+        <div class="w-40 h-1 bg-black"></div>
+        <h1 class="font-medium text-6xl tracking-tighter text-zinc-300">
+          Tech Stack
+        </h1>
+      </div>
+      <div class="imageContainer flex w-full gap-15 px-10 py-8">
+        <div class="col flex flex-col gap-15 w-1/3">
+          <div class="w-50  h-70 bg-[#201B17] opacity-10 text-center">
+            <div class="logo w-30 text-6xl px-1 justify-center items-center text-black bg-blue-300  py-7 rounded-full ">✓</div>
+            <h1>Lorem ipsum dolosaepe, eveniet eligendi assumenda ipsum?</h1>
+          </div>
+          <div class="w-50 h-80 bg-[#201B17] opacity-10"></div>
+          <div class="w-50 h-50 bg-[#201B17] opacity-10"></div>
+        </div>
+        <div class="col flex flex-col gap-15 pt-20 w-1/3">
+          <div class="w-50 h-50 bg-[#201B17] opacity-10"></div>
+          <div class="w-50 h-80 bg-[#201B17] opacity-10"></div>
+          <div class="w-50 h-90 bg-[#201B17] opacity-10"></div>
+        </div>
+        <div class="col flex flex-col gap-15 w-1/3">
+          <div class="w-50 h-100 bg-[#201B17] opacity-10"></div>
+
+          <div class="w-50 h-50 bg-[#201B17] opacity-10"></div>
+          <div class="w-50 h-80 bg-[#201B17] opacity-10"></div>
+        </div>
+      </div>
+    </section>
+   </div>
+ </section>
+
+    <!-- footer -->
+
+      <section class="footer    mt-20 bg-[#150F0B]  ">
+        <footer class="footer-1   ">
+          <div class="container  mb-0      px-14">
+            <div class="sm:flex sm:flex-wrap sm:-mx-4 ">
+              <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
+                <h5 class="text-xl font-bold mb-6">Features</h5>
+                <ul class="list-none footer-links">
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Cool stuff</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Random feature</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team feature</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Stuff for developers</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another one</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Last time</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
+                <h5 class="text-xl font-bold mb-6">Resources</h5>
+                <ul class="list-none footer-links">
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource name</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another resource</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Final resource</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+                <h5 class="text-xl font-bold mb-6">About</h5>
+                <ul class="list-none footer-links">
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Locations</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Privacy</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Terms</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+                <h5 class="text-xl font-bold mb-6">Help</h5>
+                <ul class="list-none footer-links">
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Support</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Help Center</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
+                <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">Stay connected</h5>
+                <div class="flex sm:justify-center xl:justify-start">
+                  <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-red-600 hover:border-red-600">
+                    <i class="fab fa-google-plus-g"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t">
+              <div class="sm:w-full px-4 md:w-1/6">
+                <strong>FWR</strong>
+              </div>
+              <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
+                <h6 class="font-bold mb-2">Address</h6>
+                <address class="not-italic mb-4 text-sm">
+                  123 6th St.<br>
+                  Melbourne, FL 32904
+                </address>
+              </div>
+              <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
+                <h6 class="font-bold mb-2">Free Resources</h6>
+                <p class="mb-4 text-sm">Use our HTML blocks for <strong>FREE</strong>.<br>
+                  <em>All are MIT License</em></p>
+              </div>
+              <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
+                <button class="px-4 py-2 bg-purple-800 hover:bg-purple-900 rounded text-white">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
